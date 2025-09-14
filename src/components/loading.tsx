@@ -56,7 +56,7 @@ function Loading({ onFinish }: LoadingProps) {
         <img
           alt="left"
           src="/images/all/LOADINGL.svg"
-          className="object-contain w-full h-full"
+          className="object-contain"
           onLoad={handleImageLoad}
         />
       </div>
@@ -65,7 +65,7 @@ function Loading({ onFinish }: LoadingProps) {
         <img
           alt="right"
           src="/images/all/loadingR.svg"
-          className="object-contain w-full h-full"
+          className="object-contain"
           onLoad={handleImageLoad}
         />
       </div>
