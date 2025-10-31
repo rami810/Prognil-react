@@ -212,8 +212,8 @@ function FAQ({ showButton = false }: FAQProps) {
           </div>
 
           <div className="col-span-6 m-auto ">
-            <div className="bg-[#F2F4F8] xl:w-[488px] lg:w-[400px] h-[163px]  ps-10 rounded-lg flex justify-center items-center">
-              <p className="w-[414px] text-[23px] font-poppins">
+            <div className="bg-[#F2F4F8] xl:w-[488px] lg:w-[400px] md:w-[320px]  h-[163px]  ps-10 pe-2 px-2  rounded-lg flex justify-center items-center">
+              <p className="xl:w-[414px] lg:w-[414px]  text-[23px] font-poppins">
                 Can’t find the answers you’re looking for?{" "}
                 <Link className="text-[#026BD3]" to="/contactUs">
                   You can reach out to our friendly team

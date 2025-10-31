@@ -4,6 +4,7 @@ import Aboutus from "../components/aboutus";
 import Order from "../components/order";
 import FAQ from "../components/FAQ";
 import Footer from "../components/footer";
+import IdeaVision from "../components/ideaVission";
 
 function LandingPage() {
   const faqRef = useRef<HTMLDivElement>(null);
@@ -14,6 +15,7 @@ function LandingPage() {
   return (
     <>
       <Home />
+      <IdeaVision/>
       <Aboutus onFaqClick={scrollToFaq} mode="scrol" />
       <Order />
       <div ref={faqRef}>

@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="border-b-2 border-[#DDE1E6] bg-white py-[9.4px]">
       <div className="grid grid-cols-12 items-center">
-        <Link to="/" className="col-span-2 grid justify-items-start ps-[80px]">
+        <Link to="/" className="col-span-2 grid justify-items-start lg:ps-[80px] md:ps-[20px]">
           <div>
             <img
               className="w-[60px] h-[78px]"
@@ -28,7 +28,7 @@ function Header() {
         </Link>
 
         <div className="col-span-7 text-[17px] font-inter">
-          <ul className="flex justify-center pe-[30px] lg:gap-[6%] xl:gap-[7%]">
+          <ul className="flex justify-center lg:pe-[30px] md:pe-[0] lg:gap-[6%] xl:gap-[7%] md:gap-[14px]">
             {links.map(({ href, label }) => {
               const cleanHref = href.split("?")[0];
               const isActive =
@@ -60,7 +60,7 @@ function Header() {
           </ul>
         </div>
 
-        <div className="col-span-3 grid justify-items-end pe-[80px]">
+        <div className="col-span-3 grid justify-items-end lg:pe-[80px] md:pe-[20px]">
           <Link to="/contactUs">
             <Button
               title="Get Started"
