@@ -9,7 +9,7 @@ function IdeaVision() {
           <p className="text-[16px] blue1">
             Smart solutions fair pricing. Real results
           </p>
-          <h1 className="text-[40px] font-medium max-w-[612px]">
+          <h1 className="text-[40px] font-medium  max-w-[612px]">
             {" "}
             Focus on Your Vision - We'll Handle the Cost Smartly
           </h1>
@@ -28,7 +28,7 @@ function IdeaVision() {
 
           <Link to={"/contactUs"} className="mt-6">
             <Button
-              clssName="w-[233] h-[44px] py-1 px-3  hover:border   hover:text-[var(--second)]  hover:![background-image:none] hover:!bg-transparent  hover:border-[var(--second)]"
+              clssName="w-[233px] h-[44px] text-[23px] py-1  hover:border   hover:text-[var(--second)]  hover:![background-image:none] hover:!bg-transparent  hover:border-[var(--second)]"
               title="Contact Us Now"
             />
           </Link>

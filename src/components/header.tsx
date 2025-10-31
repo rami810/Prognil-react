@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import Button from "./button";
 
@@ -17,7 +16,10 @@ function Header() {
   return (
     <header className="border-b-2 border-[#DDE1E6] bg-white py-[9.4px]">
       <div className="grid grid-cols-12 items-center">
-        <Link to="/" className="col-span-2 grid justify-items-start lg:ps-[80px] md:ps-[20px]">
+        <Link
+          to="/"
+          className="col-span-2 grid justify-items-start lg:ps-[80px] md:ps-[20px]"
+        >
           <div>
             <img
               className="w-[60px] h-[78px]"
